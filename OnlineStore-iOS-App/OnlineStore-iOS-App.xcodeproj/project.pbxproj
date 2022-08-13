@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B368BCD128A85D64003A2A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368BCD028A85D64003A2A4D /* AppDelegate.swift */; };
 		B368BCD528A85D64003A2A4D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368BCD428A85D64003A2A4D /* RootViewController.swift */; };
-		B368BCD828A85D64003A2A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B368BCD628A85D64003A2A4D /* Main.storyboard */; };
 		B368BCDB28A85D64003A2A4D /* OnlineStore_iOS_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B368BCD928A85D64003A2A4D /* OnlineStore_iOS_App.xcdatamodeld */; };
 		B368BCDD28A85D66003A2A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B368BCDC28A85D66003A2A4D /* Assets.xcassets */; };
 		B368BCE028A85D66003A2A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B368BCDE28A85D66003A2A4D /* LaunchScreen.storyboard */; };
@@ -39,7 +38,6 @@
 		B368BCCD28A85D64003A2A4D /* OnlineStore-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnlineStore-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B368BCD028A85D64003A2A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B368BCD428A85D64003A2A4D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		B368BCD728A85D64003A2A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B368BCDA28A85D64003A2A4D /* OnlineStore_iOS_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnlineStore_iOS_App.xcdatamodel; sourceTree = "<group>"; };
 		B368BCDC28A85D66003A2A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B368BCDF28A85D66003A2A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			children = (
 				B368BCD028A85D64003A2A4D /* AppDelegate.swift */,
 				B368BCD428A85D64003A2A4D /* RootViewController.swift */,
-				B368BCD628A85D64003A2A4D /* Main.storyboard */,
 				B368BCDC28A85D66003A2A4D /* Assets.xcassets */,
 				B368BCDE28A85D66003A2A4D /* LaunchScreen.storyboard */,
 				B368BCE128A85D66003A2A4D /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				B368BCE028A85D66003A2A4D /* LaunchScreen.storyboard in Resources */,
 				B368BCDD28A85D66003A2A4D /* Assets.xcassets in Resources */,
-				B368BCD828A85D64003A2A4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B368BCD628A85D64003A2A4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B368BCD728A85D64003A2A4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B368BCDE28A85D66003A2A4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +429,6 @@
 				INFOPLIST_FILE = "OnlineStore-iOS-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +455,6 @@
 				INFOPLIST_FILE = "OnlineStore-iOS-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -3,6 +3,7 @@
 //  OnlineStore-iOS-App
 //
 //  Created by Pavel Palancica on 8/14/22.
+//  Copyright © 2022 MobileDeveloper.io All rights reserved.
 //
 
 import UIKit

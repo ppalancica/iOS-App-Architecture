@@ -97,8 +97,8 @@
 		B368BCCF28A85D64003A2A4D /* OnlineStore-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
-				B368BCD028A85D64003A2A4D /* AppDelegate.swift */,
-				B368BCD428A85D64003A2A4D /* RootViewController.swift */,
+				B368BD1628A8709C003A2A4D /* AppDelegate */,
+				B368BD0328A868CB003A2A4D /* Screens */,
 				B368BCDC28A85D66003A2A4D /* Assets.xcassets */,
 				B368BCDE28A85D66003A2A4D /* LaunchScreen.storyboard */,
 				B368BCE128A85D66003A2A4D /* Info.plist */,
@@ -122,6 +122,166 @@
 				B368BCF628A85D66003A2A4D /* OnlineStore_iOS_AppUITestsLaunchTests.swift */,
 			);
 			path = "OnlineStore-iOS-AppUITests";
+			sourceTree = "<group>";
+		};
+		B368BD0328A868CB003A2A4D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD0728A8690E003A2A4D /* Account-Management */,
+				B368BD0E28A86AC0003A2A4D /* Cart */,
+				B368BD0D28A86A11003A2A4D /* Favourites */,
+				B368BD0B28A8697C003A2A4D /* Main-Feed */,
+				B368BD1528A86F7F003A2A4D /* Root */,
+				B368BD0828A86936003A2A4D /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B368BD0428A868DA003A2A4D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B368BD0528A868F1003A2A4D /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		B368BD0628A86902003A2A4D /* Reset-Password */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Reset-Password";
+			sourceTree = "<group>";
+		};
+		B368BD0728A8690E003A2A4D /* Account-Management */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD0428A868DA003A2A4D /* Login */,
+				B368BD0628A86902003A2A4D /* Reset-Password */,
+				B368BD0528A868F1003A2A4D /* Signup */,
+			);
+			path = "Account-Management";
+			sourceTree = "<group>";
+		};
+		B368BD0828A86936003A2A4D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD0A28A86963003A2A4D /* AppSettings-and-Privacy */,
+				B368BD1228A86F2E003A2A4D /* Help-and-Support */,
+				B368BD0928A8693D003A2A4D /* User-Profile */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B368BD0928A8693D003A2A4D /* User-Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD0F28A86F07003A2A4D /* Edit-User-Profile */,
+			);
+			path = "User-Profile";
+			sourceTree = "<group>";
+		};
+		B368BD0A28A86963003A2A4D /* AppSettings-and-Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD1128A86F23003A2A4D /* Privacy-Agreement */,
+				B368BD1028A86F1A003A2A4D /* Terms-of-Service */,
+			);
+			path = "AppSettings-and-Privacy";
+			sourceTree = "<group>";
+		};
+		B368BD0B28A8697C003A2A4D /* Main-Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD0C28A86997003A2A4D /* Product-List */,
+			);
+			path = "Main-Feed";
+			sourceTree = "<group>";
+		};
+		B368BD0C28A86997003A2A4D /* Product-List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Product-List";
+			sourceTree = "<group>";
+		};
+		B368BD0D28A86A11003A2A4D /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		B368BD0E28A86AC0003A2A4D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B368BD0F28A86F07003A2A4D /* Edit-User-Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Edit-User-Profile";
+			sourceTree = "<group>";
+		};
+		B368BD1028A86F1A003A2A4D /* Terms-of-Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Terms-of-Service";
+			sourceTree = "<group>";
+		};
+		B368BD1128A86F23003A2A4D /* Privacy-Agreement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Privacy-Agreement";
+			sourceTree = "<group>";
+		};
+		B368BD1228A86F2E003A2A4D /* Help-and-Support */ = {
+			isa = PBXGroup;
+			children = (
+				B368BD1328A86F3A003A2A4D /* Customer-Support */,
+				B368BD1428A86F45003A2A4D /* Useful-Info */,
+			);
+			path = "Help-and-Support";
+			sourceTree = "<group>";
+		};
+		B368BD1328A86F3A003A2A4D /* Customer-Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Customer-Support";
+			sourceTree = "<group>";
+		};
+		B368BD1428A86F45003A2A4D /* Useful-Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Useful-Info";
+			sourceTree = "<group>";
+		};
+		B368BD1528A86F7F003A2A4D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B368BCD428A85D64003A2A4D /* RootViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B368BD1628A8709C003A2A4D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B368BCD028A85D64003A2A4D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
